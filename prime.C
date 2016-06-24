@@ -1,15 +1,12 @@
 void prime(int a)
 {
-int i=2,prime=0;
-if((a!=1)&&(a!=0))
-{
+int i=2,prime=1;
 for(;i<=a/2;i++)
 {
 if(a%i==0)
 {
-prime=1;
+prime=0;
 break;
-}
 }
 }
 if(prime)
